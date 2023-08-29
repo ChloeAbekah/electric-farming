@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  header{
+    width: 20%;
+  }
+  .banner{
+    position: relative;
+    left: 0%;
+  }
+  .banner2{
+    position: relative;
+    left: 20%;
+  }
+  .banner img{
+    max-width: 100%;
+}
+p{
+    text-align: unset;
+    text-decoration: solid;
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.foote{
+    left: 150%;
+}
+footer{
+    background-color: #333;
+    color: #eee;
+    padding: 1px;
+    text-align: center;
+}
+
+.vertical-menu {
+  width: 2000px;
+  float: left;
+  overflow: hidden;
+}
+
+
+.vertical-menu a {
+  background-color: #333;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+
+}
+
+.vertical-menu a:hover {
+  background-color: #fffafa;
+}
+
+.vertical-menu a.active {
+  background-color: #333;
+  color: white;
+  
+}
+
+
